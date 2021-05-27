@@ -50,7 +50,7 @@ nav .logo h1 span
 {
 	list-style: none;
 	margin-top: : 20px;
-	margin :  10px;
+	margin : 10px;
 padding: 10px;
 }
 .navbar ul li a
@@ -74,6 +74,7 @@ padding: 10px;
 {
  width : 100%;
 }
+
 .home
 {
 align-items: center;
@@ -134,21 +135,23 @@ height: 450px;
 
 	}
 }
-.row a
+
+.row
 {
 	color : white;
 	margin : 10px;
 	padding : 10px;
 }
-.row a 
+.row a i
 {
+	color : white;
 	margin-right: 10px;
 	font-size: 20px;
 }
 .about
 {
 	background-color : black;
-	opacity : 0.8;
+	
 	padding : 100px 50px;
 }
 .about
@@ -187,7 +190,8 @@ height: 450px;
 }
 .rowabout
 {
-	flex-basis: 60%;
+	width : 100%;
+	flex-basis: 50%;
 	padding : 0px 40px;
 
 }
@@ -199,6 +203,93 @@ height: 450px;
 
 
 }
+#services .box .skallo
+{
+	font-weight : bold;
+	font-size: 20px;
+}
+#services-container
+
+{
+		background-color : red;
+}
+.h-primary
+{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 40px;
+	font-weight: bold;
+	color : #fff;
+}
+#services
+{
+
+	display: flex;
+	margin : 34px;
+
+}
+#services .box
+{   width : 33%;
+
+	border : 4px solid brown;
+	padding : 34px;
+	margin : 10px 20px;
+	border-radius : 5px;
+	background : #f2f2f2;
+}
+#services .box span
+{
+	font-weight: bold;
+color : blue;
+}
+#services .box progress
+{
+	text-align: center;
+	width : 90%%;
+	height : 4vh;
+
+} 
+#services .box h1
+{
+	align-items: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+/*
+
+.skills h1
+{
+	font-size: 40px;
+	text-align: center;
+}
+.skills
+{
+	
+	
+	background-size: cover;
+	padding : 50px;
+	margin : 0px 50px;
+}
+
+
+.skills::before
+{
+	content : "";
+	position: absolute;
+	background-color: orange;
+	
+
+	height : 100%;
+	width : 100%;
+	z-index :-1;
+	
+}
+
+
+
+
+
 
 .skills h1
 {
@@ -209,28 +300,26 @@ height: 450px;
 	margin-bottom: 50px;
 	
 }
-.pro
-{
-	text-align: center;
-	
 
-}
-.skills
-{
-	background-color : orange;
-	width : 100%;
-	height : 190vh;
-}
 .skills h1
 {
  color : red;
 }
-/*.pro progress
+
+.pro 
+{
+
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.pro progress
 {
 	width : 70%;
 	height : 5vh;
 
-}*/
+}
  .skallo
 {
 	font-size: 30px;
@@ -238,16 +327,10 @@ height: 450px;
 	color : red;
 
 }
-.pro 
+.prorow 
 {
 
-	display: flex;
-	flex-direction: row;
-}
- .prorow 
-{
-
-	flex-basis: 50%;
+	flex-basis: 40%;
 	padding : 20px;
 	margin-left : 20px;
 	margin-right: 20px;
@@ -277,12 +360,14 @@ height: 450px;
 .skills p
 {
 	color : yellow;
-}
+}*/
 .project
 {
 	background-color :#87CEEB;
-	height: 40vh;
 	width : 100%;
+	height : 40vh;
+
+
 }
 .project h1
 {
@@ -292,7 +377,7 @@ height: 450px;
 {
 	
 
-   margin-top : 30px;
+   padding-top: 20px;
 	color : white; 
 	font-size: 40px;
 	font-weight: bold;
@@ -302,12 +387,14 @@ height: 450px;
 	display: flex;
 
 }
+
+
 .rowj
 {
  flex-basis: 25%;
- 
+  border : 4px solid pink;
   color : white;
-
+  border-radius: 10px;
  margin : 25px;
  padding : 10px;
 }

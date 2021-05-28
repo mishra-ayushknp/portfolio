@@ -485,26 +485,12 @@ footer p
 }
 
 
-@media( max-width :1060px)
-{
-	.project {
-   
-    height: 42vh;
-}
-}
 
-@media( max-width :945px)
-{
-	.project {
-   
-    height: 44vh;
-}
-}
 @media( max-width :844px)
 {
 	.project {
    
-    height: 50vh;
+    height: 70vh;
 }
     #services .box {
    
@@ -548,7 +534,7 @@ font-size: 15px;
 }
 .project
 {
-	height : 90vh;
+	height : 100vh;
 	}}
 	@media( max-width :670px)
 	{
@@ -588,7 +574,7 @@ font-size: 15px;
 }
 .about
 {
-	margin-top: 140px;
+	margin-top: 10px;
 	padding-top : 20px;
 	padding-bottom: 40px;
 	padding-left: 20px;
@@ -630,6 +616,10 @@ font-size: 15px;
 	
 	flex-direction: column;
 }
+.about
+{
+	margin-top: 10px;
+}
 .rowabout 
 {
 	padding : 5px;
@@ -642,7 +632,7 @@ font-size: 15px;
 }
 .about
 {
-	margin-top: 265px;
+	margin-top: 10px;
 	padding-top : 20px;
 	padding-bottom: 40px;
 	padding-left: 20px;
@@ -718,12 +708,11 @@ nav .logo
 }
 			
 	}
-
-}
-@media(max-width : 320px)
-{
-	.about
+	.project
 	{
-		margin-top : 150px;
+		height: 110vh;
 	}
+
+
+
 }

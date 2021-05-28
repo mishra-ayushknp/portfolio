@@ -668,6 +668,10 @@ font-size: 15px;
 
 @media(max-width: 585px)
 {
+	.home
+	{
+		height : 460px;
+	}
 	.home .hkk
 	{
 		font-size: 26px;
@@ -710,7 +714,7 @@ nav .logo
 	}
 	.project
 	{
-		height: 110vh;
+		height: 130vh;
 	}
 
 

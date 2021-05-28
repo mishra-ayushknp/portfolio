@@ -3,6 +3,10 @@ margin : 0;
 padding : 0;
 box-sizing: border-box;
 }
+html,body
+{
+	overflow-x: hidden;
+}
 
 nav
 {
@@ -81,7 +85,7 @@ align-items: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
-height: 450px;
+height: 500px;
 
 }
 .home::before
@@ -112,7 +116,7 @@ height: 450px;
 	font-family: 'Baloo Bhai', cursive;
 
 	color : white;
-	font-size: 40px;
+	font-size: 30px;
 
 }
 
@@ -156,7 +160,7 @@ height: 450px;
 }
 .about
 {
-	margin-top : 110px;
+	margin-top : 285px;
 }
 
 .about h1
@@ -225,15 +229,15 @@ height: 450px;
 {
 
 	display: flex;
-	margin : 34px;
-
+	
 }
 #services .box
 {   width : 33%;
 
 	border : 4px solid brown;
 	padding : 34px;
-	margin : 10px 20px;
+	margin-bottom : 30px;
+	margin : 40px 20px;
 	border-radius : 5px;
 	background : #f2f2f2;
 }
@@ -371,6 +375,7 @@ color : blue;
 }
 .project h1
 {
+
 	text-align: center;
 }
 .project  .spa
@@ -395,7 +400,7 @@ color : blue;
   border : 4px solid pink;
   color : white;
   border-radius: 10px;
- margin : 25px;
+ margin : 18px;
  padding : 10px;
 }
 .rowj h1
@@ -440,7 +445,7 @@ text-align: center;
 #contact-box input, 
 #contact-box textarea{
     width: 100%;
-   padding-left : 6rem;
+   padding-left : 0.6rem;
    padding-right: 6rem;
    padding-top : 0.5rem;
    padding-bottom: 0.5rem;
@@ -467,14 +472,258 @@ footer
 	background-color:#000;
 
 	width : 100%;
-
+	
 }
 footer p
 {
 	text-align: center;
 	color : yellow;
-	font-size: 30px;
-	padding-top:10px;
+	font-size: 25px;
 	padding-bottom: 10px;
+	padding-top: 10px;
 
+}
+
+
+@media( max-width :1060px)
+{
+	.project {
+   
+    height: 42vh;
+}
+}
+
+@media( max-width :945px)
+{
+	.project {
+   
+    height: 44vh;
+}
+}
+@media( max-width :844px)
+{
+	.project {
+   
+    height: 50vh;
+}
+    #services .box {
+   
+    margin: 10px 10px;
+   
+}
+}
+@media( max-width :844px)
+{
+	 #services .box {
+   
+    margin: 10px 10px;
+   
+}
+}
+@media( max-width :783px)
+{
+	.project {
+   
+    height: 54vh;
+}
+.rowj h1
+
+{
+font-size: 20px;
+
+}
+.rowj p
+{
+font-size: 15px;
+}
+}
+@media( max-width :707px)
+{
+	.proj
+	{
+	display : flex;
+	flex-direction : column;
+	
+
+}
+.project
+{
+	height : 90vh;
+	}}
+	@media( max-width :670px)
+	{
+		#contact-box
+		{
+			width : 80%;
+		margin-left: 50px;
+			margin-right : 50px;
+		}
+	}
+	@media(max-width : 786px)
+	
+	{
+
+	}
+		@media( max-width :600px)
+		{
+			.rowabout p
+		{
+			font-size: 15px;
+		}
+		.container{
+
+	display: flex;
+	
+	flex-direction: column;
+}
+.rowabout 
+{
+	padding : 5px;
+}
+.rowimg img 
+{
+	
+	width: 100%;
+	height : 33vh;
+}
+.about
+{
+	margin-top: 140px;
+	padding-top : 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.about h1
+{
+	margin-bottom: 0px;
+}
+
+		}
+	
+	@media( max-width :370px)
+	{
+	#contact-box input, 
+#contact-box textarea{
+   
+    font-size: 0.7rem;
+} 
+#contact-box
+		{
+			margin-left : 20px;
+		}
+		.rowabout p
+		{
+			font-size: 12px;
+		}
+		.btn
+		{
+			font-size: 0.8rem;
+		}
+		footer  p
+		{
+			font-size :15px;
+		}
+		.container{
+
+	display: flex;
+	
+	flex-direction: column;
+}
+.rowabout 
+{
+	padding : 5px;
+}
+.rowimg img 
+{
+	
+	width: 100%;
+	height : 30vh;
+}
+.about
+{
+	margin-top: 265px;
+	padding-top : 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.about h1
+{
+	margin-bottom: 0px;
+}
+
+	}
+
+	
+@media(max-width : 714px)
+
+{
+
+	#services{
+	display: flex;
+	flex-direction: column;
+	}
+	#services .box
+{   width : 70%;
+	margin : 20px 65px;
+	border-radius: 15px;
+	/*border : 4px solid brown;
+	padding : 34px;
+	margin : 10px 20px;
+	border-radius : 5px;
+	background : #f2f2f2;*/
+}
+	}
+
+@media(max-width: 585px)
+{
+	.home .hkk
+	{
+		font-size: 26px;
+	}
+	.home h1
+	{
+	font-size: 40px;
+	}
+	.home .change_content
+	{
+		font-size: 25px;
+	}
+	.navbar ul li
+{
+	
+	margin-top: : 20px;
+	margin : 5px;
+padding: 5px;
+}
+.navbar ul li a
+{
+	font-size: 10px;
+}
+nav .logo h1
+{
+	font-size: 16px;
+}
+nav .logo
+{
+	margin : 7px;
+	padding : 5px;
+}
+	@media(max-width : 359px)
+	{
+		nav .logo h1
+{
+		font-size: 14px;
+}
+			
+	}
+
+}
+@media(max-width : 320px)
+{
+	.about
+	{
+		margin-top : 150px;
+	}
 }
